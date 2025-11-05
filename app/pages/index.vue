@@ -16,9 +16,9 @@ const cards = ref([
   },
   {
     title: 'ผขฟ.กบฟ.',
-    description: 'ด้านลูกหนี้ค่าไฟ การออกบิล',
+    description: `การประมวลผลบิลค่าไฟฟ้า\nการปรับปรุงค่าไฟฟ้ากรณีมิเตอร์ชำรุด/ละเมิด\nการจัดทำสัญญาซื้อขายไฟฟ้า\nการจัดเก็บและทบทวนเงินประกันการใช้ไฟฟ้า\nการกำหนดอัตราค่าไฟฟ้าและประเภทกิจการ`,
     icon: 'material-symbols:article-person-outline',
-    to: 'https://qr.pea.co.th/Zml4OGNjM',
+    to: 'https://qr.pea.co.th/MTJiY2UyO',
     src: 'images/electricity-bill.png'
   },
   {
@@ -47,6 +47,7 @@ const cards = ref([
       v-bind="card"
       highlight
       highlight-color="primary"
+      class="pre-formatted"
     >
      <img :src="card.src" class="size-25" />
     </UPageCard>
@@ -87,7 +88,8 @@ const cards = ref([
 
 
 <style>
-.custom-icon-color  {
-  size: 1000pm;
+
+.pre-formatted {
+  white-space: pre;
 }
 </style>
