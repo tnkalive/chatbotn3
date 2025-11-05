@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   image: {
     dir: 'assets/img',
-    provider: 'ipx',
+    provider: 'static',
   },
 
   css: ['~/assets/css/main.css'],
