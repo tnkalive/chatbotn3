@@ -23,9 +23,9 @@ const cards = ref([
   },
   {
     title: 'ผสซ.ฝสบ.',
-    description: 'ด้านโปรแกรมและแอปพลิเคชั่นภายในองค์กร',
+    description: 'ด้าน Program และ Application ที่ใช้ภายในองค์กร',
     icon: 'streamline-pixel:computers-devices-electronics-desktop',
-    to: ' https://qr.pea.co.th/M2VjNWNKY',
+    to: 'https://qr.pea.co.th/YzBlNzA0Z',
     src: '/computer-graphic.png'
   }
 ])
