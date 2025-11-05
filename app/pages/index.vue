@@ -23,7 +23,7 @@ const cards = ref([
   },
   {
     title: 'ผสซ.ฝสบ.',
-    description: 'ด้าน Program และ Application ที่ใช้ภายในองค์กร',
+    description: 'ข้อมูลการแก้ไข error จากระบบ scs/ics\nข้อมูล TSIC \nปัญหาการใช้งานระบบต่างๆ เช่น eems mgmt',
     icon: 'streamline-pixel:computers-devices-electronics-desktop',
     to: 'https://qr.pea.co.th/YzBlNzA0Z',
     src: 'images/computer-graphic.png'
