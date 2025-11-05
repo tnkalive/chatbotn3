@@ -11,7 +11,7 @@ const cards = ref([
     title: 'กบพ.',
     description: 'ข้อมูลด้านพัสดุ',
     icon: 'healthicons:rdt-result-out-stock',
-    to: ' https://qr.pea.co.th/ZjAxM2050',
+    to: 'https://qr.pea.co.th/ZjAxM2Q5O',
     src: '/warehouse.png',
   },
   {
