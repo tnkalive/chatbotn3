@@ -1,8 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  nitro: { preset: 'static' },
+  nitro: {
+    preset: 'static'
+  },
   ssr: false,
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image'],
+  modules: ['@nuxt/eslint', '@nuxt/ui'],
   colorMode: {
     preference: "light",
     storageKey: 'custom-key-color-mode'
@@ -11,10 +13,10 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true
   },
-  image: {
-    dir: 'assets/img',
-    provider: 'static',
-  },
+  // image: {
+  //   // provider: 'static',
+  //   dir: 'public/images'
+  // },
 
   css: ['~/assets/css/main.css'],
 

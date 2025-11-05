@@ -5,28 +5,28 @@ const cards = ref([
     description: 'การปฏิบัติงานด้านบัญชีและการเงินภายในองค์กรและใช้ T-Code ต่างๆ เพื่อดำเนินการในระบบเช่น การตั้งหนี้, การกลับรายการเอกสาร, การเคลียร์เงินยืมพนักงาน, และการจัดการเช็คโดยมี ผปว.(แผนกประมวลผลและวิเคราะห์บัญชี)เป็นหน่วยงานหลักที่รับผิดชอบ',
     icon: 'arcticons:debtcalc',
     to: 'https://qr.pea.co.th/ODc4YzRkM',
-    src: '/account.png',
+    src: 'images/account.png',
   },
   {
     title: 'กบพ.',
     description: 'ข้อมูลด้านพัสดุ',
     icon: 'healthicons:rdt-result-out-stock',
     to: 'https://qr.pea.co.th/ZjAxM2Q5O',
-    src: '/warehouse.png',
+    src: 'images/warehouse.png',
   },
   {
     title: 'ผขฟ.กบฟ.',
     description: 'ด้านลูกหนี้ค่าไฟ การออกบิล',
     icon: 'material-symbols:article-person-outline',
     to: 'https://qr.pea.co.th/Zml4OGNjM',
-    src: '/electricity-bill.png'
+    src: 'images/electricity-bill.png'
   },
   {
     title: 'ผสซ.ฝสบ.',
     description: 'ด้าน Program และ Application ที่ใช้ภายในองค์กร',
     icon: 'streamline-pixel:computers-devices-electronics-desktop',
     to: 'https://qr.pea.co.th/YzBlNzA0Z',
-    src: '/computer-graphic.png'
+    src: 'images/computer-graphic.png'
   }
 ])
 
@@ -48,7 +48,7 @@ const cards = ref([
       highlight
       highlight-color="primary"
     >
-     <NuxtImg :src="card.src" class="size-25" />
+     <img :src="card.src" class="size-25" />
     </UPageCard>
     </UPageGrid>
   </UPageSection>
