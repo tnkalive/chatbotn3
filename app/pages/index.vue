@@ -49,6 +49,7 @@ const cards = ref([
       highlight
       highlight-color="primary"
       class="pre-formatted"
+      target="_blank"
     >
      <img :src="card.src" class="mx-auto size-25" />
     </UPageCard>
