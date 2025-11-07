@@ -38,6 +38,7 @@ const cards = ref([
     <UPageSection
       id="features"
       title="CHATBOT ฝสบ.กฟน3"
+      icon="tabler:message-chatbot"
       description="`นายเมธี บุญพรหม ผชก.(น3) ผลักดันให้นำเทคโนโลยี AI มาใช้งานในหน่วยงาน กฟน.3 โดยมี นายธรรมนูญ สุวรรณพฤกษ์ อฝ.สบ.ได้ดำเนินการตามนโยบาย โดยมีการจัดทำ Chatbot เพื่อนำมาอำนวยความสะดวกให้กับพนักงานในการตอบปัญหางานในส่วนต่าง`"
     >
     <UPageGrid>
@@ -49,7 +50,7 @@ const cards = ref([
       highlight-color="primary"
       class="pre-formatted"
     >
-     <img :src="card.src" class="size-25" />
+     <img :src="card.src" class="mx-auto size-25" />
     </UPageCard>
     </UPageGrid>
   </UPageSection>

@@ -1,7 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   nitro: {
-    preset: 'static'
+    preset: 'static',
+    database: {
+    }
   },
   ssr: false,
   modules: ['@nuxt/eslint', '@nuxt/ui'],
